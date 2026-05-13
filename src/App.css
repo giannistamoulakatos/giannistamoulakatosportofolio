@@ -1,4 +1,5 @@
 *{
+  
   box-sizing: border-box;
 }
 .App {
@@ -48,11 +49,15 @@
 }
 html{
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 body{
   background: linear-gradient(to right, darkblue,darkgreen );
   color: #7FFF00;
+  overflow-x: hidden;
 
 }
 .Skills{
@@ -263,6 +268,9 @@ body{
 
 @media (max-width: 768px){
 
+  .App h1{
+      word-break: break-word;
+  }
   .NavigationBar ul{
     flex-direction: column;
     align-items: center;
@@ -287,8 +295,10 @@ body{
   }
 
   .container {
+    width: 100%;
     grid-template-columns: 1fr;
     padding: 0 12px;
+    box-sizing: border-box;
   }
 
   .card {
