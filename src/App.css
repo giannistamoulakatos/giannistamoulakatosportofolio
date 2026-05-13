@@ -58,6 +58,7 @@ body{
   background: linear-gradient(to right, darkblue,darkgreen );
   color: #7FFF00;
   overflow-x: hidden;
+  padding-bottom: 20px;
 
 }
 .Skills{
@@ -226,7 +227,6 @@ body{
   border: none;
   border-radius: 20px;
   padding: 10px 10px;
-
 }
 
 .links a{
