@@ -112,6 +112,19 @@ function Button(){
 }
 
 
+function ButtonBio(){
+    return(
+      <>
+      <button className='BioButton'>
+        <a className='BioButton' href='/mybio.pdf' download>
+        Download my Bio
+        </a>
+      </button>
+      </>
+    )
+}
+
+
 function NavigationBar(){
   return(
     <div className='NavigationBar'>
@@ -194,8 +207,13 @@ function App() {
     <div id='projects' className='projects'>
       <Projects />
     </div>
-    <div id='contact' className='contact'>
+    <div id='buttons' className='buttons'>
+      <div id='contact' className='contact'>
       <Button />
+      </div>
+    <div id='BioFile' className='BioFile'>
+      <ButtonBio />
+      </div>
     </div>
     </>
     </div>

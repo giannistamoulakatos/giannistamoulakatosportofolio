@@ -216,18 +216,29 @@ body{
 }
 
 
-.contact{
+.buttons{
   margin-top: 50px;
+  justify-content: center;
+  gap:20px;
+  display: flex;
+
 }
 
-.ConButton{
+.ConButton,
+.BioButton{
   font-size: 50px;
   background-color: #7FFF00 !important;
   color: darkblue !important;
   border: none;
   border-radius: 20px;
   padding: 10px 10px;
+  flex: 0 0 auto;
+
 }
+
+
+
+
 
 .links a{
   color: #7FFF00 !important;
@@ -281,9 +292,14 @@ body{
     font-size: 22px;
   }
 
-  .ConButton{
+  .buttons{
     font-size: 28px;
     width: 100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 15px;
+    padding: 20px;
   }
 
   .links a{
